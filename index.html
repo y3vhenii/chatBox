@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat App</title>
+        <link rel="stylesheet" type="text/css" href="chatDesign.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="keyUp.js"></script>
+    </head>
+    <body>
+        <div id="availUsrs">
+            <h1>Chat v1.0</h1>
+            <h3>Users of the chat</h3>
+            <div id="allUsers"></div>
+        </div>
+        <div id="sendMsg">
+            <h3>Enter your crudentials</h3>
+            <label><strong>Username: </strong></label><input type="text" id="usrnm" placeholder="Enter your username here..."><br />
+            <label><strong>User Password: </strong></label><input type="text" id="passwrd" placeholder="Enter your password here..."><br />
+            <textarea type="text" id="toSend" placeholder="Your message goes here..."></textarea><br />
+            <p id="status"></p>
+        </div>
+        <div id="receiveMsg">
+            <h3>Enter the name of the user you want to chat</h3>
+            <input id="whoToListenTo" type="text" placeholder="Enter the name here..."><br />
+            <textarea id="receive" type="text" placeholder="The message will appear here..."></textarea><br />
+        </div>
+    </body>
+</html>

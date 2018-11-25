@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 400px;
+    border-radius: 10px;
+    border-bottom: none;
+}
+h3{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 400px;
+    border-radius: 10px;
+}
+/*Div that takes care of the field with available users*/
+#availUsrs{
+    border: solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 3px;
+    background-color: wheat;
+}
+/*Div that takes care of the field where the message gets sent*/
+#sendMsg{
+    border: solid 2px;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 3px;
+    background-color: wheat;
+}
+/*Div that takes care of the field where the message is received*/
+#receiveMsg{
+    border: solid 2px;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 3px;
+    background-color: wheat;
+}
+input{
+    margin-left: 5px;
+    width: 80%;
+}
+button{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: red;
+}
+textarea{
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+label{
+    margin-left: 5px;
+}
+#status{
+    margin-left: 10px;
+}
